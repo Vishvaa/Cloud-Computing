@@ -1,5 +1,5 @@
 applications:
-- name: conv-nlu
+- name: comp7970-vkt-nlu
   command: npm start
   path: .
   memory: 256M
