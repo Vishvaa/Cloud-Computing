@@ -1,8 +1,15 @@
+---
+declared-services:
+  my-conversation-service:
+    label: conversation
+    plan: free
 applications:
-- path: .
+- name: comp7970-vkt
+  command: npm start
+  path: .
   memory: 256M
   instances: 1
-  domain: mybluemix.net
-  name: comp7970-vkt
-  host: comp7970-vkt
-  disk_quota: 1024M
+  services:
+  comp7970-vkt
+  env:
+    NPM_CONFIG_PRODUCTION: false
