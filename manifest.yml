@@ -6,8 +6,5 @@ applications:
   path: .
   memory: 256M
   instances: 1
-  services:
-  - comp7970-vkt
-  - comp7970-vkt-nlu
   env:
     NPM_CONFIG_PRODUCTION: false
