@@ -1,7 +1,5 @@
----
-
 applications:
-- name: comp7970-vkt
+- name: comp7970-vkt-nlu
   command: npm start
   path: .
   memory: 256M
